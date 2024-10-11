@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon="" block="音センサ v1.2"
+//% weight=100 color=#0fbc11 icon="" block="音センサ v1.7"
 namespace IMLsoundsensor {
 
     //% block
