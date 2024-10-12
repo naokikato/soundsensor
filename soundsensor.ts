@@ -21,7 +21,6 @@ namespace IML_soundsensor {
     }
 
 
-
     let datapin = AnalogPin.P0
     const SOUND_EVENT_ID1 = 1001;
     const SOUND_EVENT_ID2 = 1002;
