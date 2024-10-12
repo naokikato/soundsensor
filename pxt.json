@@ -1,6 +1,6 @@
 {
     "name": "soundsensor",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "GROVE 音センサ （Sound Sensor v1.7）",
     "dependencies": {
         "core": "*",
