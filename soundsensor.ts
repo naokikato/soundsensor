@@ -29,7 +29,7 @@ namespace IML_soundsensor {
     let interval = 100;
 
     //% block
-    //% block="%pin につなげた音センサの閾値の上を $value1 下を $value2 に設定する"
+    //% block="%pin につなげた音量の閾値の上を $value1 下を $value2 に設定する"
     //% weight=90 color=#3fbc41
     export function setSoundSensor(pin: AnalogPin, value1: number, value2: number) {
         datapin = pin
@@ -38,13 +38,13 @@ namespace IML_soundsensor {
         startListening();
     }
     //% block
-    //% block="音センサの出力が閾値以上になったとき"
+    //% block="音量が閾値以上になったとき"
     //% weight=89 color=#3fbc41
     export function onSoundDetected1(handler: () => void) {
         control.onEvent(SOUND_EVENT_ID1, EventBusValue.MICROBIT_EVT_ANY, handler);
     }
     //% block
-    //% block="音センサの出力が閾値以下になったとき"
+    //% block="音量が閾値以下になったとき"
     //% weight=88 color=#3fbc41
     export function onSoundDetected2(handler: () => void) {
         control.onEvent(SOUND_EVENT_ID2, EventBusValue.MICROBIT_EVT_ANY, handler);
