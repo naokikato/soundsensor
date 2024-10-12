@@ -29,7 +29,7 @@ namespace IML_soundsensor {
     let interval = 100;
 
     //% block
-    //% block="%pin につなげた音量の閾値の上を $value1 下を $value2 に設定する"
+    //% block="%pin につなげた音センサの閾値の上を $value1 下を $value2 に設定する"
     //% weight=90 color=#3fbc41
     export function setSoundSensor(pin: AnalogPin, value1: number, value2: number) {
         datapin = pin
